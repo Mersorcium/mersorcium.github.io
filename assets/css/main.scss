@@ -53,7 +53,7 @@ $sidebar-width: 22rem;
 }
 
 .member {
-    width: 10rem;
+    width: 7rem;
     text-align: center;
 }
 
@@ -66,7 +66,8 @@ $sidebar-width: 22rem;
 
 .avatar {
     display: flex;
-    justify-content: space-between;
+    flex-wrap:wrap;
+    justify-content: space-around;
 }
 
 .avatar img{

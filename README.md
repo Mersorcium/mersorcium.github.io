@@ -46,7 +46,7 @@ Finally, click the `Commit new file` button to publish the article!
 
 > Note: GitHub Pages use a small caching window of ~10 min, so you may have to wait a while to see the results.
 
-A few sample posts have been uploaded in the _post folder temporarily, which will be moved to other folders later when the website is officially released.
+A few sample posts have been uploaded in the `_post` folder temporarily, which will be moved to other folders later when the website is officially released.
 
 The website is established and maintained by Heyu (heyu.lin@student.unimelb.edu.au), so you can always find solutions from him anytime if you have any problem or feedback:grinning:!
 
