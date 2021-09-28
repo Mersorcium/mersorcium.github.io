@@ -62,6 +62,17 @@ $sidebar-width: 22rem;
     width: 6rem;
     height: 6rem;
     margin: auto;
+    background-color: #fff;
+}
+
+.square img{
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.square:hover img{
+    opacity: .5;
 }
 
 .avatar {
@@ -99,6 +110,42 @@ $sidebar-width: 22rem;
 .index .content {
     padding-top: 0 !important;
 }
+
+.button-join {
+    background: #232741;
+    border: 1px solid #232741;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 8rem;
+  }
+  
+  .button-join:hover,
+  .button-join:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #232741;
+  }
+
+
+
 
 @media (min-width: $large-breakpoint) {
 .section {
