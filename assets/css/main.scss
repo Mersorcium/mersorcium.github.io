@@ -111,6 +111,11 @@ $sidebar-width: 22rem;
     padding-top: 0 !important;
 }
 
+.join-us {
+    background-color: #fff;
+    padding-left: 2rem;
+}
+
 .button-join {
     background: #232741;
     border: 1px solid #232741;
@@ -158,6 +163,10 @@ $sidebar-width: 22rem;
 
 .index .content {
     padding-top: 2rem;
+}
+
+.join-us {
+    padding-left: 0;
 }
 
 }
