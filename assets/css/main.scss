@@ -139,20 +139,23 @@ $sidebar-width: 22rem;
     -webkit-user-select: none;
     touch-action: manipulation;
     vertical-align: middle;
-    width: 8rem;
-  }
+    width: 9rem;
+}
   
-  .button-join:hover,
-  .button-join:active {
+.button-join:hover,
+.button-join:active {
     background-color: initial;
     background-position: 0 0;
     color: #232741;
-  }
+}
 
 
 
 
 @media (min-width: $large-breakpoint) {
+
+// undo something
+
 .section {
     padding: 0;
   }
