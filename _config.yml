@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Mersorcium
 tagline:          'Mercury consortium'
-description:      'Mersorcium, the microbial Hg transformation community.'
+description:      'The microbial Hg cycling consortium.'
 url:              https://mersorcium.github.io
 baseurl:          '/'
                   # the optional subpath of your site, e.g. "/blog"
