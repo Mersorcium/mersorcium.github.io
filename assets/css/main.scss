@@ -131,7 +131,7 @@ $sidebar-width: 22rem;
     line-height: 16px;
     min-height: 40px;
     outline: 0;
-    padding: 12px 14px;
+    padding: 12px 20px;
     text-align: center;
     text-rendering: geometricprecision;
     text-transform: none;
@@ -139,7 +139,6 @@ $sidebar-width: 22rem;
     -webkit-user-select: none;
     touch-action: manipulation;
     vertical-align: middle;
-    width: 9rem;
 }
   
 .button-join:hover,
@@ -147,6 +146,10 @@ $sidebar-width: 22rem;
     background-color: initial;
     background-position: 0 0;
     color: #232741;
+}
+
+.page .content {
+    text-align: justify;
 }
 
 
