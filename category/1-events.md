@@ -3,6 +3,17 @@ layout: category
 title: Events
 ---
 
+
+---
+
+**April 27 2022**
+
+[Online Seminar] "Microbial community dynamics involved in methylmercury production in peatlands" presented by Spencer Roth
+
+*Time*: 14:00 - 15:00 UTC time / 10AM Eastern time, Wednesday, April 27th , 2022
+
+![Alt text](../posters/20220427-Spencer.jpg "Spencer-20220427")
+
 ---
 
 **February 24 2022**
@@ -11,7 +22,7 @@ title: Events
 
 *Time*: 15:00 – 16:00 UTC time, Thursday, February 24th, 2022
 
-![Alt text](../posters/20220224-Caitlin.png "Title")
+![Alt text](../posters/20220224-Caitlin.png "Caitlin-20220224")
 
 ---
 
