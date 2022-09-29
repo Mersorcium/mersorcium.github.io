@@ -5,6 +5,15 @@ title: Events
 
 
 ---
+**September 29 2022**
+
+[Discussion Session] On microbial transformations of Hg - follow-up to session "Meta-omic and geochemical approaches to linking microbial activity to biogeochemical mercury cycling"
+
+*Time*: 14:00 - 15:00 UTC time, Thursday, September 29th, 2022
+
+![Alt text](../posters/29092022-DiscussionSession.jpg "Discussion-20220427")
+
+---
 
 **April 27 2022**
 
