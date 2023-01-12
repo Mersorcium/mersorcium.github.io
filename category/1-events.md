@@ -3,6 +3,14 @@ layout: category
 title: Events
 ---
 
+---
+**October 25 2022**
+
+[Online Seminar] Microbial mercury cycling from chilean ecosystems - a call for collaboration
+
+*Time*: 14:00 - 15:00 UTC time, Tuesday, October 25th, 2022
+
+![Alt text](../posters/Seminar-20221025-Celine.jpg "Celine-20221025")
 
 ---
 **September 29 2022**
@@ -32,12 +40,6 @@ title: Events
 *Time*: 15:00 – 16:00 UTC time, Thursday, February 24th, 2022
 
 ![Alt text](../posters/20220224-Caitlin.png "Caitlin-20220224")
-
----
-
-**February 27 - March 4 2022**
-
-Session CT11 “Mercury transformations in marine ecosystems” at the Ocean Sciences Meeting 2022, Honolulu, HI, USA, Organizers: E Capo, A Schartup, H Lin, L-E Heimbürger
 
 ---
 
