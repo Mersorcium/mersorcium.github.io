@@ -159,14 +159,14 @@ $sidebar-width: 22rem;
 
 
 #whatwedo {
-    display: block;
+    flex-direction: column;
     float: left;
     justify-content: space-between;
 }
 
 #whatwedo .our-work {
     width: 90%;
-    display: block;
+    display: flex;
 }
 
 .work-icon{
@@ -215,6 +215,7 @@ $sidebar-width: 22rem;
 
 #whatwedo .our-work {
     width: 30%;
+    display: flex;
 }
 
 }
