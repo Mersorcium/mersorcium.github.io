@@ -4,7 +4,30 @@ The website is powered by [GitHub Pages](https://pages.github.com/) + [Jekyll](h
 
 # How to add new events
 
-You can post a new events in the "Events" side menu by editing the markdown file [1-events](category/1-events.md).
+You can post a new events in the "Events" side menu by the following 2 steps:
+
+1. Uploading the poster image to the folder [posters](posters)
+2. Editing the text content in the file [1-events](category/1-events.md).
+
+Here is how to do them (not so hard!):
+
+## Step 1: Uploading the poster image
+
+Click and enter the folder [posters](posters)
+
+![click_posters](how-to-post/posters_loc.jpg)
+
+and then upload the image:
+
+![click_posters](how-to-post/posters_loc.jpg)
+
+![upload_posters](how-to-post/upload_posters.jpg)
+
+Then confirm the uploading:
+
+![confirm_uploading](how-to-post/finish_uploading.jpg)
+
+## Step 2: Editing the text content
 
 ![category_location](how-to-post/posts_category.jpg)
 
@@ -13,8 +36,6 @@ You can post a new events in the "Events" side menu by editing the markdown file
 ![edit](how-to-post/edit_events.jpg)
 
 **The post should obey the following format:**
-
-### File content format
 
 Every event is a formatted `block` (circled in red below), so you can copy and paste a previous `block` and then edit the content.
 
