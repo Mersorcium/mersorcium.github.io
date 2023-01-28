@@ -164,7 +164,6 @@ $sidebar-width: 22rem;
 }
 
 #whatwedo .our-work {
-    width: 90%;
     display: block;
     margin-bottom: 2rem;
 }
@@ -191,12 +190,32 @@ $sidebar-width: 22rem;
 }
 
 .our-work a{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: #232741;
     font-weight: bold;
     display: block;
 }
 
+.seminar-title {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+span.newstype {
+    position: relative;
+}
+
+span.newstype {
+    background-color: #232741;
+    content: " ";
+    height: 30%;
+    position: absolute;
+    left: 0;
+    margin-left: -1rem;
+    top: 65%;
+    width: calc(100% + 2.75rem);
+    z-index: -1;
+}
 
 @media (min-width: $large-breakpoint) {
 
@@ -224,6 +243,10 @@ $sidebar-width: 22rem;
 }
 
 .our-work p {
+    font-size: 0.7rem;
+}
+
+.our-work a{
     font-size: 0.7rem;
 }
 
