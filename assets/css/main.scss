@@ -164,7 +164,7 @@ $sidebar-width: 22rem;
 }
 
 #whatwedo .our-work {
-    width: 30%;
+    width: 90%;
 }
 
 .work-icon{
@@ -197,7 +197,7 @@ $sidebar-width: 22rem;
 
 @media (min-width: $large-breakpoint) {
 
-// undo something
+// undo something for desktop screen
 
 .section {
     padding: 0;
@@ -209,6 +209,10 @@ $sidebar-width: 22rem;
 
 .index .content {
     padding-top: 2rem;
+}
+
+#whatwedo .our-work {
+    width: 30%;
 }
 
 }
