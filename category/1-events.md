@@ -9,6 +9,7 @@ title: Events
 [Online Seminar] Interactions between Hg compounds and cyanobacteria: from the uptake to biotransformations and effect of thiol-containing ligands
 
 *Speaker*: Cossart Thibaut (Geneva University, Switzerland)
+
 *Time*: 14:00 - 15:00 UTC time, Tuesday, January 24th, 2023
 
 ![Alt text](../posters/20230124-CossartThibaut.jpg "CossartThibaut-20230124")
@@ -20,6 +21,7 @@ title: Events
 [Online Seminar] Microbial mercury cycling from chilean ecosystems - a call for collaboration
 
 *Speaker*: Céline Lavergne (University of Playa Ancha, Chile)
+
 *Time*: 14:00 - 15:00 UTC time, Tuesday, October 25th, 2022
 
 ![Alt text](../posters/Seminar-20221025-Celine.jpg "Celine-20221025")
@@ -37,9 +39,10 @@ title: Events
 
 **April 27 2022**
 
-[Online Seminar] "Microbial community dynamics involved in methylmercury production in peatlands" presented by Spencer Roth
+[Online Seminar] Microbial community dynamics involved in methylmercury production in peatlands
 
 *Speaker*: Spencer Roth (Oak Ridge National Laboratory, US)
+
 *Time*: 14:00 - 15:00 UTC time / 10AM Eastern time, Wednesday, April 27th , 2022
 
 ![Alt text](../posters/20220427-Spencer.jpg "Spencer-20220427")
@@ -48,9 +51,10 @@ title: Events
 
 **February 24 2022**
 
-[Online Seminar] "A multi-omics approach to linking microbial community dynamics to mercury biogeochemistry" presented by Caitlin M. Gionfriddo
+[Online Seminar] A multi-omics approach to linking microbial community dynamics to mercury biogeochemistry
 
 *Speaker*: Caitlin M. Gionfriddo (Smithsonian Environmental Research Center, US)
+
 *Time*: 15:00 – 16:00 UTC time, Thursday, February 24th, 2022
 
 ![Alt text](../posters/20220224-Caitlin.png "Caitlin-20220224")
