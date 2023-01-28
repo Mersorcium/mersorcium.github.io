@@ -202,20 +202,9 @@ $sidebar-width: 22rem;
 }
 
 span.newstype {
-    position: relative;
+    background: linear-gradient(180deg,rgba(255,255,255,0) 70%, #6D7ECF 50%);
 }
 
-span.newstype {
-    background-color: #232741;
-    content: " ";
-    height: 30%;
-    position: absolute;
-    left: 0;
-    margin-left: -1rem;
-    top: 65%;
-    width: calc(100% + 2.75rem);
-    z-index: -1;
-}
 
 @media (min-width: $large-breakpoint) {
 
