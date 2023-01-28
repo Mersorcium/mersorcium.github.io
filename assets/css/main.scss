@@ -159,7 +159,8 @@ $sidebar-width: 22rem;
 
 
 #whatwedo {
-    display: flex;
+    display: block;
+    float: left;
     justify-content: space-between;
 }
 
