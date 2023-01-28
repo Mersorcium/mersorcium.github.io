@@ -166,6 +166,7 @@ $sidebar-width: 22rem;
 #whatwedo .our-work {
     width: 90%;
     display: block;
+    margin-bottom: 2rem;
 }
 
 .work-icon{
@@ -176,7 +177,7 @@ $sidebar-width: 22rem;
 }
 
 .our-work p {
-    font-size: 0.7rem;
+    font-size: 1rem;
     text-align: justify;
     margin-bottom: 0;
 }
@@ -193,6 +194,7 @@ $sidebar-width: 22rem;
     font-size: 0.8rem;
     color: #232741;
     font-weight: bold;
+    float: left;
 }
 
 
@@ -218,6 +220,9 @@ $sidebar-width: 22rem;
 
 #whatwedo .our-work {
     width: 30%;
+    margin-bottom: 0;
 }
 
+.our-work p {
+    font-size: 0.7rem;
 }
