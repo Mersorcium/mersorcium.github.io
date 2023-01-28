@@ -212,8 +212,13 @@ body.category strong{
     background: linear-gradient(180deg,rgba(255,255,255,0) 70%, #6D7ECF 50%);
     color: #232741;
     font-weight: 800;
+    font-size: 1.2rem;
 }
 
+body.category em{
+    background: linear-gradient(180deg,rgba(255,255,255,0) 70%, #CFC959 50%);
+    font-weight: 600;
+}
 @media (min-width: $large-breakpoint) {
 
 // undo something for desktop screen

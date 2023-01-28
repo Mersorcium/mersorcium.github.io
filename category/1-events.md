@@ -6,9 +6,7 @@ title: Events
 ---
 **Online Seminar**
 
-## October 25 2022
-
-*Title*: Interactions between Hg compounds and cyanobacteria: from the uptake to biotransformations and effect of thiol-containing ligands
+## Interactions between Hg compounds and cyanobacteria: from the uptake to biotransformations and effect of thiol-containing ligands
 
 *Speaker*: Cossart Thibaut (Geneva University, Switzerland)
 
@@ -20,9 +18,7 @@ title: Events
 ---
 **Online Seminar** 
 
-## October 25 2022
-
-*Title*: Microbial mercury cycling from chilean ecosystems - a call for collaboration
+## Microbial mercury cycling from chilean ecosystems - a call for collaboration
 
 *Speaker*: Céline Lavergne (University of Playa Ancha, Chile)
 
@@ -33,9 +29,7 @@ title: Events
 ---
 **Discussion Session** 
 
-## September 29 2022
-
-*Title*: On microbial transformations of Hg - follow-up to session "Meta-omic and geochemical approaches to linking microbial activity to biogeochemical mercury cycling"
+## On microbial transformations of Hg - follow-up to session "Meta-omic and geochemical approaches to linking microbial activity to biogeochemical mercury cycling"
 
 *Time*: 14:00 - 15:00 UTC time, Thursday, September 29th, 2022
 
@@ -44,9 +38,7 @@ title: Events
 ---
 **Online Seminar**
 
-## April 27 2022
-
-*Title*: Microbial community dynamics involved in methylmercury production in peatlands
+## Microbial community dynamics involved in methylmercury production in peatlands
 
 *Speaker*: Spencer Roth (Oak Ridge National Laboratory, US)
 
@@ -57,9 +49,7 @@ title: Events
 ---
 **Online Seminar**
 
-## February 24 2022
-
-*Title*: A multi-omics approach to linking microbial community dynamics to mercury biogeochemistry
+## A multi-omics approach to linking microbial community dynamics to mercury biogeochemistry
 
 *Speaker*: Caitlin M. Gionfriddo (Smithsonian Environmental Research Center, US)
 
@@ -70,6 +60,6 @@ title: Events
 ---
 **Online Seminar**
 
-## July 24-29th 2022
+## ICMGP conference, virtual event
 
-ICMGP conference, virtual event
+*Time*: July 24-29th 2022
