@@ -61,6 +61,7 @@ title: Events
 
 ---
 
+
 **July 24-29th 2022**
 
 ICMGP conference, virtual event
