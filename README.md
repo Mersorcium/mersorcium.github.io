@@ -19,8 +19,6 @@ Click and enter the folder [posters](posters)
 
 and then upload the image:
 
-![click_posters](how-to-post/posters_loc.jpg)
-
 ![upload_posters](how-to-post/upload_posters.jpg)
 
 Then confirm the uploading:
@@ -32,6 +30,8 @@ Then confirm the uploading:
 ![category_location](how-to-post/posts_category.jpg)
 
 ![events_location](how-to-post/posts_events.jpg)
+
+Then edit the content:
 
 ![edit](how-to-post/edit_events.jpg)
 
