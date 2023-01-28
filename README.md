@@ -37,7 +37,7 @@ Then edit the content:
 
 **The post should obey the following format:**
 
-Every event is a formatted `block` (circled in red below), so you can copy and paste a previous `block` and then edit the content.
+Every event is a formatted `block` (circled in red below), so you can copy and paste a previous `block` and then edit the content. The content should be edited is highlighted by yellow.
 
 ![example-block](how-to-post/write_content.jpg)
 
