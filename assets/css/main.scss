@@ -203,8 +203,16 @@ $sidebar-width: 22rem;
 
 span.newstype {
     background: linear-gradient(180deg,rgba(255,255,255,0) 70%, #6D7ECF 50%);
+    color: #232741;
+    font-weight: 800;
 }
 
+// Events page
+body.category strong{
+    background: linear-gradient(180deg,rgba(255,255,255,0) 70%, #6D7ECF 50%);
+    color: #232741;
+    font-weight: 800;
+}
 
 @media (min-width: $large-breakpoint) {
 
