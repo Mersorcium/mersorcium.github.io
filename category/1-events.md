@@ -6,6 +6,19 @@ title: Events
 ---
 **Online Seminar**
 
+## Isotopic tracers as a powerful tool for the determination of microbial Hg species transformations
+
+*Speaker*: Javier García-Calleja (University of Pau)
+
+*Time*: 14:00 - 15:00 UTC time, Thursday, February 23rd, 2023
+
+*Seminar Recording*: [Go To Mersorcium YouTube Channel](https://youtu.be/16cejGujTSA)
+
+![Alt text](../posters/20230223-Javier.jpg "Javier-20230223")
+
+---
+**Online Seminar**
+
 ## Interactions between Hg compounds and cyanobacteria: from the uptake to biotransformations and effect of thiol-containing ligands
 
 *Speaker*: Cossart Thibaut (Geneva University, Switzerland)
