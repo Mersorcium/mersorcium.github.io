@@ -6,6 +6,18 @@ title: Events
 ---
 **Online Seminar**
 
+## Exploring the role of demethylation of MeHg induced toxicity in vitro and in vivo: using merB as a model
+
+*Speaker*: Ian Krout (Emory University)
+
+*Time*: 14:00 - 15:00 UTC time, Tuesday, April 11th, 2023
+
+
+![Alt text](../posters/Seminar-20230411-krout.jpg "Krout-20230411")
+
+---
+**Online Seminar**
+
 ## Isotopic tracers as a powerful tool for the determination of microbial Hg species transformations
 
 *Speaker*: Javier García-Calleja (University of Pau)
