@@ -6,6 +6,17 @@ title: Events
 ---
 **Online Seminar**
 
+## Exploring the Fourth Corner of Mercury Methylation in Prairie Wetland Ponds
+
+*Speaker*: Zohra Zahir (University of Regina)
+
+*Time*: 14:00 - 15:00 UTC time, Thursday, May 18th , 2023
+
+![Alt text](../posters/Seminar-20230518-zahir.jpg "Seminar-20230518-zahir")
+
+---
+**Online Seminar**
+
 ## Exploring the role of demethylation of MeHg induced toxicity in vitro and in vivo: using merB as a model
 
 *Speaker*: Ian Krout (Emory University)
