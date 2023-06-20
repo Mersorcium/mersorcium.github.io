@@ -6,6 +6,17 @@ title: Events
 ---
 **Online Seminar**
 
+## Interaction between mercury and the aquatic plant Elodea nuttallii
+
+*Speaker*: Claudia Cosio (Université Reims Champagne Ardenne)
+
+*Time*: 14:00 - 15:00 UTC time, Friday, June 23rd , 2023
+
+![Alt text](../posters/Seminar-20230623-Claudia.jpg "Seminar-20230623-Claudia")
+
+---
+**Online Seminar**
+
 ## Exploring the Fourth Corner of Mercury Methylation in Prairie Wetland Ponds
 
 *Speaker*: Zohra Zahir (University of Regina)
