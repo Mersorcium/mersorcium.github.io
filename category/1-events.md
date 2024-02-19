@@ -6,6 +6,17 @@ title: Events
 ---
 **Online Seminar**
 
+## Unmasking the physiology of mercury detoxifying bacteria from polluted sediments
+
+*Speaker*: Carla Pereira-García (Autonomous University of Barcelona and at the Institute of Marine Sciences)
+
+*Time*: 14:00 - 15:00 UTC time, Thursday, February 22nd , 2024
+
+![Alt text](../posters/Seminar-20240222-Carla.jpg "Seminar-20240222-Carla")
+
+---
+**Online Seminar**
+
 ## Interaction between mercury and the aquatic plant Elodea nuttallii
 
 *Speaker*: Claudia Cosio (Université Reims Champagne Ardenne)
