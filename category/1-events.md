@@ -10,7 +10,9 @@ title: Events
 
 *Speaker*: Carla Pereira-García (Autonomous University of Barcelona and at the Institute of Marine Sciences)
 
-*Time*: 14:00 - 15:00 UTC time, Thursday, February 22nd , 2024
+*Time*: 14:00 - 15:00 UTC time, Thursday, February 22nd, 2024
+
+*Seminar Recording*: [Go To Mersorcium YouTube Channel](https://www.youtube.com/watch?v=DtQwP5CdAeY&ab_channel=Mersorcium)
 
 ![Alt text](../posters/Seminar-20240222-Carla.jpg "Seminar-20240222-Carla")
 
