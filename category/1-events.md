@@ -4,6 +4,17 @@ title: Events
 ---
 
 ---
+
+**Discussion Session**
+
+## Transcription of *hgcAB*
+
+*Time*: 14:00 - 15:00 UTC time, Thursday, April 4th, 2024
+
+![Alt text](../posters/Poster-DiscussionSession-20240404.jpg "Poster-DiscussionSession-20240404")
+
+---
+
 **Online Seminar**
 
 ## Unmasking the physiology of mercury detoxifying bacteria from polluted sediments
@@ -17,6 +28,7 @@ title: Events
 ![Alt text](../posters/Seminar-20240222-Carla.jpg "Seminar-20240222-Carla")
 
 ---
+
 **Online Seminar**
 
 ## Interaction between mercury and the aquatic plant Elodea nuttallii
@@ -28,6 +40,7 @@ title: Events
 ![Alt text](../posters/Seminar-20230623-Claudia.jpg "Seminar-20230623-Claudia")
 
 ---
+
 **Online Seminar**
 
 ## Exploring the Fourth Corner of Mercury Methylation in Prairie Wetland Ponds
@@ -39,6 +52,7 @@ title: Events
 ![Alt text](../posters/Seminar-20230518-zahir.jpg "Seminar-20230518-zahir")
 
 ---
+
 **Online Seminar**
 
 ## Exploring the role of demethylation of MeHg induced toxicity in vitro and in vivo: using merB as a model
@@ -47,10 +61,10 @@ title: Events
 
 *Time*: 14:00 - 15:00 UTC time, Tuesday, April 11th, 2023
 
-
 ![Alt text](../posters/Seminar-20230411-krout.jpg "Krout-20230411")
 
 ---
+
 **Online Seminar**
 
 ## Isotopic tracers as a powerful tool for the determination of microbial Hg species transformations
@@ -64,6 +78,7 @@ title: Events
 ![Alt text](../posters/20230223-Javier.jpg "Javier-20230223")
 
 ---
+
 **Online Seminar**
 
 ## Interactions between Hg compounds and cyanobacteria: from the uptake to biotransformations and effect of thiol-containing ligands
@@ -74,8 +89,8 @@ title: Events
 
 ![Alt text](../posters/20230124-CossartThibaut.jpg "CossartThibaut-20230124")
 
-
 ---
+
 **Online Seminar** 
 
 ## Microbial mercury cycling from chilean ecosystems - a call for collaboration
@@ -87,6 +102,7 @@ title: Events
 ![Alt text](../posters/Seminar-20221025-Celine.jpg "Celine-20221025")
 
 ---
+
 **Discussion Session** 
 
 ## On microbial transformations of Hg - follow-up to session "Meta-omic and geochemical approaches to linking microbial activity to biogeochemical mercury cycling"
@@ -96,6 +112,7 @@ title: Events
 ![Alt text](../posters/29092022-DiscussionSession.jpg "Discussion-20220427")
 
 ---
+
 **Online Seminar**
 
 ## Microbial community dynamics involved in methylmercury production in peatlands
@@ -107,6 +124,7 @@ title: Events
 ![Alt text](../posters/20220427-Spencer.jpg "Spencer-20220427")
 
 ---
+
 **Online Seminar**
 
 ## A multi-omics approach to linking microbial community dynamics to mercury biogeochemistry
@@ -118,6 +136,7 @@ title: Events
 ![Alt text](../posters/20220224-Caitlin.png "Caitlin-20220224")
 
 ---
+
 **Online Seminar**
 
 ## ICMGP conference, virtual event
