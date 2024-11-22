@@ -4,7 +4,7 @@ The website is powered by [GitHub Pages](https://pages.github.com/) + [Jekyll](h
 
 # How to add new events
 
-You can post a new events in the "Events" side menu by the following 2 steps:
+You can post a new event in the "Events" side menu by the following 2 steps:
 
 1. Uploading the poster image to the folder [posters](posters)
 2. Editing the text content in the file [1-events](category/1-events.md).
@@ -17,7 +17,7 @@ Click and enter the folder [posters](posters)
 
 ![click_posters](how-to-post/posters_loc.jpg)
 
-and then upload the image:
+and then upload the image (you need to log in with an authorized account to see this option):
 
 ![upload_posters](how-to-post/upload_posters.jpg)
 
