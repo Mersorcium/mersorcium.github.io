@@ -5,6 +5,18 @@ title: Events
 
 ---
 
+**Online Seminar**
+
+## Microbial Communities and Methylmercury Dynamics in Prairie Wetland Ponds
+
+*Speaker*: Zohra Zahir (University of Regina)
+
+*Time*: 3pm – 4pm UTC time / 10am – 11am Eastern time (US), Thursday, December 5th, 2024
+
+![Alt text](../posters/20241205-ZohraZahir.jpg "Seminar-20241205-Zohra")
+
+---
+
 **Discussion Session**
 
 ## Transcription of *hgcAB*
