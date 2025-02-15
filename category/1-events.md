@@ -4,6 +4,17 @@ title: Events
 ---
 
 ---
+**Discussion Session**
+
+## Identification and verification of merAB genes
+
+*Speaker*: 
+
+*Time*: 14:00 - 15:00 UTC time, Thursday, February 27th, 2025
+
+![Alt text](../posters/Poster-DiscussionSession-20250227.jpg "Poster-DiscussionSession-20250227")
+
+---
 
 **Online Seminar**
 
