@@ -8,7 +8,7 @@ title: Events
 
 ## Identification and verification of merAB genes
 
-*Speaker*: 
+*Speaker*: Mersorcium Members
 
 *Time*: 14:00 - 15:00 UTC time, Thursday, February 27th, 2025
 
@@ -52,6 +52,8 @@ title: Events
 
 *Seminar Recording*: [Go To Mersorcium YouTube Channel](https://www.youtube.com/watch?v=DtQwP5CdAeY&ab_channel=Mersorcium)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DtQwP5CdAeY?si=7J52s5b6XJjoBz_N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ![Alt text](../posters/Seminar-20240222-Carla.jpg "Seminar-20240222-Carla")
 
 ---
@@ -63,6 +65,9 @@ title: Events
 *Speaker*: Claudia Cosio (Université Reims Champagne Ardenne)
 
 *Time*: 14:00 - 15:00 UTC time, Friday, June 23rd , 2023
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RL5nOP4LpxU?si=4i_Sdfg67vplt2Go" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ![Alt text](../posters/Seminar-20230623-Claudia.jpg "Seminar-20230623-Claudia")
 
