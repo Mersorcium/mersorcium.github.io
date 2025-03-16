@@ -12,6 +12,10 @@ title: Events
 
 *Time*: 14:00 - 15:00 UTC time, Thursday, February 27th, 2025
 
+*Seminar Recording*: [Go To Mersorcium YouTube Channel](https://www.youtube.com/watch?v=DaDbjOLrtCM&t)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DaDbjOLrtCM?si=1IHIO9v3pSC4_ZA5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ![Alt text](../posters/20250227Discussion-merAB.jpg "Poster-DiscussionSession-20250227")
 
 ---
