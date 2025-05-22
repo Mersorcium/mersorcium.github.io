@@ -4,6 +4,17 @@ title: Events
 ---
 
 ---
+**Online Seminar**
+
+## Unveiling the role of phytoplankton species in mercury cycling transformations
+
+*Speaker*: João Santos
+
+*Time*: 14:00 - 15:00 UTC time, Monday, June 2nd, 2025
+
+![Alt text](../posters/Seminar-20250602-Joao_Santos.jpg "Seminar-20250602-Joao_Santos")
+
+---
 **Discussion Session**
 
 ## Identification and verification of merAB genes
