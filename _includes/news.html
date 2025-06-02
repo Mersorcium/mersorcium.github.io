@@ -25,48 +25,65 @@
 
 <!-- 💡 Local time conversion script -->
 <script>
-  const utcTime = '2025-06-02T14:00:00Z'; // UTC time of the seminar
-  const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-  const localDate = new Date(utcTime);
+  // Wait for DOM to fully load
+  document.addEventListener('DOMContentLoaded', function() {
+    try {
+      const utcTime = '2025-06-02T14:00:00Z'; // UTC time of the seminar
+      const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+      const localDate = new Date(utcTime);
 
-  const formatted = localDate.toLocaleString('en-US', {
-    timeZone: userTimeZone,
-    weekday: 'long',
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-    hour: '2-digit',
-    minute: '2-digit',
-    hour12: false
+      const formatted = localDate.toLocaleString('en-US', {
+        timeZone: userTimeZone,
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: false
+      });
+
+      document.getElementById('seminar-time').textContent = `${formatted} (${userTimeZone})`;
+    } catch (error) {
+      console.error("Error in time conversion:", error);
+    }
   });
-
-  document.getElementById('seminar-time').textContent = `${formatted} (${userTimeZone})`;
 </script>
 
 <script>
-  // Seminar details
-  const title = 'Online Seminar: Unveiling the role of phytoplankton species in mercury cycling transformations';
-  const location = 'Zoom: https://umu.zoom.us/j/67699665745';
-  const description = 'Speaker: João Santos\\nJoin via Zoom: https://umu.zoom.us/j/67699665745';
-  
-  const startUtc = new Date('2025-06-02T14:00:00Z'); // Using same UTC time as display
-  const endUtc = new Date(startUtc.getTime() + 60 * 60 * 1000); // +1 hour
+  // Wait for DOM to fully load
+  document.addEventListener('DOMContentLoaded', function() {
+    try {
+      // Seminar details
+      const title = 'Online Seminar: Unveiling the role of phytoplankton species in mercury cycling transformations';
+      const location = 'Zoom: https://umu.zoom.us/j/67699665745';
+      const description = 'Speaker: João Santos\\nJoin via Zoom: https://umu.zoom.us/j/67699665745';
+      
+      const startUtc = new Date('2025-06-02T14:00:00Z'); // Using same UTC time as display
+      const endUtc = new Date(startUtc.getTime() + 60 * 60 * 1000); // +1 hour
 
-  // Format for Google Calendar link
-  const formatDateForGCal = (date) => {
-    return date.toISOString().replace(/[-:]|\.\d{3}/g, '');
-  };
+      // Format for Google Calendar link
+      const formatDateForGCal = (date) => {
+        return date.toISOString().replace(/[-:]|\.\d{3}/g, '');
+      };
 
-  const gcalLink = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(title)}&dates=${formatDateForGCal(startUtc)}/${formatDateForGCal(endUtc)}&details=${encodeURIComponent(description)}&location=${encodeURIComponent(location)}&sf=true&output=xml`;
-  document.getElementById('gcal-link').href = gcalLink;
+      const gcalLink = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(title)}&dates=${formatDateForGCal(startUtc)}/${formatDateForGCal(endUtc)}&details=${encodeURIComponent(description)}&location=${encodeURIComponent(location)}&sf=true&output=xml`;
+      
+      const gcalButton = document.getElementById('gcal-link');
+      if (gcalButton) {
+        gcalButton.href = gcalLink;
+        console.log("Google Calendar link set:", gcalLink);
+      } else {
+        console.error("Google Calendar button not found!");
+      }
 
-  // Format for .ics file
-  const pad = (num) => String(num).padStart(2, '0');
-  const formatICSDate = (d) => {
-    return `${d.getUTCFullYear()}${pad(d.getUTCMonth() + 1)}${pad(d.getUTCDate())}T${pad(d.getUTCHours())}${pad(d.getUTCMinutes())}00Z`;
-  };
+      // Format for .ics file
+      const pad = (num) => String(num).padStart(2, '0');
+      const formatICSDate = (d) => {
+        return `${d.getUTCFullYear()}${pad(d.getUTCMonth() + 1)}${pad(d.getUTCDate())}T${pad(d.getUTCHours())}${pad(d.getUTCMinutes())}00Z`;
+      };
 
-  const icsContent = `BEGIN:VCALENDAR
+      const icsContent = `BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Your Site//EN
 BEGIN:VEVENT
@@ -80,9 +97,20 @@ LOCATION:${location}
 END:VEVENT
 END:VCALENDAR`;
 
-  const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
-  const icsURL = URL.createObjectURL(blob);
-  document.getElementById('ics-download').href = icsURL;
+      const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+      const icsURL = URL.createObjectURL(blob);
+      
+      const icsButton = document.getElementById('ics-download');
+      if (icsButton) {
+        icsButton.href = icsURL;
+        console.log("ICS download link created");
+      } else {
+        console.error("ICS download button not found!");
+      }
+    } catch (error) {
+      console.error("Error setting up calendar links:", error);
+    }
+  });
 </script>
 
 <!-- ✨ Optional minimal styling -->
