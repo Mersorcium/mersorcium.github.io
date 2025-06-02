@@ -18,7 +18,7 @@ title: Events
 {% endif %}
 
 {% if event.utc %}
-*Time*: {{ event.utc }}
+*Time*: {{ event.utc | date: "%A, %B %d, %Y %H:%M UTC" }}
 {% endif %}
 
 {% if event.youtube %}
