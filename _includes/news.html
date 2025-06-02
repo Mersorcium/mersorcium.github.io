@@ -3,7 +3,48 @@
     <h1 class="section-title underline">News</h1>
     <p class="seminar-title"><span class="newstype">Online Seminar</span> Unveiling the role of phytoplankton species in mercury cycling transformations</p>
     <p><span class="newstype">Speaker:</span> João Santos</p>
+
+    <!-- 🕒 Seminar Time (local) -->
+    <div class="seminar-time-box">
+        <strong>🕒 Seminar Time:</strong>
+        <div id="seminar-time">Loading local time...</div>
+        <small style="color: gray;">Automatically converted to your local timezone</small>
+    </div>
+
     <!-- <a href="https://youtu.be/16cejGujTSA">&raquo; View history recording in Mersorcium YouTube Channel</a> -->
     <img src="{{ "/posters/Seminar-20250602-Joao_Santos.jpg" | relative_url }}" alt="poster" />
     <a href="https://umu.zoom.us/j/67699665745">&raquo; Click here to enter the zoom meeting</a>
 </div>
+
+
+<!-- 💡 Local time conversion script -->
+<script>
+  const utcTime = '2025-06-02T14:00:00Z'; // UTC time of the seminar
+  const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+  const localDate = new Date(utcTime);
+
+  const formatted = localDate.toLocaleString('en-US', {
+    timeZone: userTimeZone,
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false
+  });
+
+  document.getElementById('seminar-time').textContent = `${formatted} (${userTimeZone})`;
+</script>
+
+<!-- ✨ Optional minimal styling -->
+<style>
+  .seminar-time-box {
+    background-color: #f3f4f6;
+    border-left: 4px solid #3b82f6;
+    padding: 1em;
+    margin: 1em 0;
+    font-family: system-ui, sans-serif;
+    border-radius: 6px;
+  }
+</style>
