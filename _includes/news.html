@@ -1,7 +1,7 @@
 <div class="section">
     <h1 class="section-title underline">News</h1>
-    <p class="seminar-title"><span class="newstype">Online Seminar</span> Unveiling the role of phytoplankton species in mercury cycling transformations</p>
-    <p><span class="newstype">Speaker:</span> João Santos</p>
+    <p class="seminar-title"><span class="newstype">{{ site.data.seminar[0].type }}</span> {{ site.data.seminar[0].title }}</p>
+    <p><span class="newstype">Speaker:</span> {{ site.data.seminar[0].speaker }}</p>
 
     <!-- 🕒 Seminar Time (local) -->
     <div class="seminar-time-box">
@@ -22,8 +22,8 @@
 
 
     <!-- <a href="https://youtu.be/16cejGujTSA">&raquo; View history recording in Mersorcium YouTube Channel</a> -->
-    <img src="{{ "/posters/Seminar-20250602-Joao_Santos.jpg" | relative_url }}" alt="poster" />
-    <a href="https://umu.zoom.us/j/67699665745">&raquo; Click here to enter the zoom meeting</a>
+    <img src="{{ '/posters/' | append: site.data.seminar[0].poster | relative_url }}" alt="poster" />
+    <a href="{{ site.data.seminar[0].link }}">&raquo; Click here to enter the zoom meeting</a>
 </div>
 
 
@@ -55,15 +55,24 @@
 </script>
 
 <script>
+  // Seminar info from seminar.yml
+  const seminar = {
+    type: "{{ site.data.seminar[0].type | escape }}",
+    title: "{{ site.data.seminar[0].title | escape }}",
+    speaker: "{{ site.data.seminar[0].speaker | escape }}",
+    link: "{{ site.data.seminar[0].link | escape }}",
+    utc: "{{ site.data.seminar[0].utc }}",
+  };
+</script>
+<script>
   // Wait for DOM to fully load
   document.addEventListener('DOMContentLoaded', function() {
     try {
       // Seminar details
-      const title = 'Online Seminar: Unveiling the role of phytoplankton species in mercury cycling transformations';
-      const location = 'Zoom: https://umu.zoom.us/j/67699665745';
-      const description = 'Speaker: João Santos\\nJoin via Zoom: https://umu.zoom.us/j/67699665745';
-      
-      const startUtc = new Date('2025-06-02T14:00:00Z'); // Using same UTC time as display
+      const title = seminar.type + ': ' + seminar.title;
+      const location = 'Zoom: ' + seminar.link;
+      const description = 'Speaker: ' + seminar.speaker + '\\nJoin via Zoom: ' + seminar.link;
+      const startUtc = new Date(seminar.utc); // Using same UTC time as display
       const endUtc = new Date(startUtc.getTime() + 60 * 60 * 1000); // +1 hour
 
       // Format for Google Calendar link
