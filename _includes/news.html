@@ -126,14 +126,22 @@ END:VCALENDAR`;
     margin: 1em 0;
     font-family: system-ui, sans-serif;
     border-radius: 6px;
+    color: black;
+  }
+  .calendar-buttons {
+    display: flex;
+    gap: 0.5em;
+    flex-wrap: wrap;
+    align-items: center;
   }
   .calendar-button {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2em;
     background-color: #718ece;
     color: white;
     padding: 0.4em 0.8em;
-    margin-right: 0.5em;
-    margin-bottom: 0.5em;
     text-decoration: none;
     border-radius: 5px;
     font-size: 0.9em;
@@ -154,7 +162,7 @@ END:VCALENDAR`;
     width: 16px;
     height: 16px;
     margin-right: 4px;
-    vertical-align: text-bottom;
+    vertical-align: middle;
   }
   
   .google-btn {
