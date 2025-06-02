@@ -13,6 +13,10 @@ title: Events
 *Speaker*: {{ event.speaker }}
 {% endif %}
 
+{% if event.affiliation %}
+*Affiliation*: {{ event.affiliation }}
+{% endif %}
+
 {% if event.utc %}
 *Time*: {{ event.utc }}
 {% endif %}
