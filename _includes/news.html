@@ -27,12 +27,22 @@
 </div>
 
 
-<!-- 💡 Local time conversion script -->
+ <script>
+  // Seminar info from seminar.yml
+  const seminar = {
+    type: "{{ site.data.seminar[0].type | escape }}",
+    title: "{{ site.data.seminar[0].title | escape }}",
+    speaker: "{{ site.data.seminar[0].speaker | escape }}",
+    link: "{{ site.data.seminar[0].link | escape }}",
+    utc: "{{ site.data.seminar[0].utc }}",
+  };
+</script>
+
 <script>
   // Wait for DOM to fully load
   document.addEventListener('DOMContentLoaded', function() {
     try {
-      const utcTime = '2025-06-02T14:00:00Z'; // UTC time of the seminar
+      const utcTime = seminar.utc; // UTC time of the seminar
       const userTimeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
       const localDate = new Date(utcTime);
 
@@ -54,16 +64,6 @@
   });
 </script>
 
-<script>
-  // Seminar info from seminar.yml
-  const seminar = {
-    type: "{{ site.data.seminar[0].type | escape }}",
-    title: "{{ site.data.seminar[0].title | escape }}",
-    speaker: "{{ site.data.seminar[0].speaker | escape }}",
-    link: "{{ site.data.seminar[0].link | escape }}",
-    utc: "{{ site.data.seminar[0].utc }}",
-  };
-</script>
 <script>
   // Wait for DOM to fully load
   document.addEventListener('DOMContentLoaded', function() {
