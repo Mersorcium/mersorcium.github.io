@@ -11,6 +11,12 @@
         <small style="color: gray;">Automatically converted to your local timezone</small>
     </div>
 
+    <!-- 📅 Add to Calendar Buttons -->
+    <div class="calendar-buttons" style="margin-top: 1em;">
+        <a id="gcal-link" class="calendar-button" target="_blank">➕ Add to Google Calendar</a>
+        <a id="ics-download" class="calendar-button" download="seminar.ics">📥 Add to Outlook / iCal</a>
+    </div>
+
     <!-- <a href="https://youtu.be/16cejGujTSA">&raquo; View history recording in Mersorcium YouTube Channel</a> -->
     <img src="{{ "/posters/Seminar-20250602-Joao_Santos.jpg" | relative_url }}" alt="poster" />
     <a href="https://umu.zoom.us/j/67699665745">&raquo; Click here to enter the zoom meeting</a>
@@ -35,6 +41,46 @@
   });
 
   document.getElementById('seminar-time').textContent = `${formatted} (${userTimeZone})`;
+
+    // Seminar details
+  const title = 'Online Seminar: Unveiling the role of phytoplankton species in mercury cycling transformations';
+  const location = 'Zoom: https://umu.zoom.us/j/67699665745';
+  const description = 'Speaker: João Santos\\nJoin via Zoom: https://umu.zoom.us/j/67699665745';
+  
+  const startUtc = new Date('2025-06-02T08:00:00Z'); // UTC
+  const endUtc = new Date(startUtc.getTime() + 60 * 60 * 1000); // +1 hour
+
+  // Format for Google Calendar link
+  const formatDateForGCal = (date) => {
+    return date.toISOString().replace(/[-:]|\.\d{3}/g, '');
+  };
+
+  const gcalLink = `https://www.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(title)}&dates=${formatDateForGCal(startUtc)}/${formatDateForGCal(endUtc)}&details=${encodeURIComponent(description)}&location=${encodeURIComponent(location)}&sf=true&output=xml`;
+  document.getElementById('gcal-link').href = gcalLink;
+
+  // Format for .ics file
+  const pad = (num) => String(num).padStart(2, '0');
+  const formatICSDate = (d) => {
+    return `${d.getUTCFullYear()}${pad(d.getUTCMonth() + 1)}${pad(d.getUTCDate())}T${pad(d.getUTCHours())}${pad(d.getUTCMinutes())}00Z`;
+  };
+
+  const icsContent = `BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Your Site//EN
+BEGIN:VEVENT
+UID:${Date.now()}@yourdomain.com
+DTSTAMP:${formatICSDate(new Date())}
+DTSTART:${formatICSDate(startUtc)}
+DTEND:${formatICSDate(endUtc)}
+SUMMARY:${title}
+DESCRIPTION:${description}
+LOCATION:${location}
+END:VEVENT
+END:VCALENDAR`;
+
+  const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
+  const icsURL = URL.createObjectURL(blob);
+  document.getElementById('ics-download').href = icsURL;
 </script>
 
 <!-- ✨ Optional minimal styling -->
@@ -46,5 +92,19 @@
     margin: 1em 0;
     font-family: system-ui, sans-serif;
     border-radius: 6px;
+  }
+    .calendar-button {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 0.4em 0.8em;
+    margin-right: 0.5em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9em;
+    transition: background-color 0.2s ease;
+  }
+  .calendar-button:hover {
+    background-color: #1e40af;
   }
 </style>
