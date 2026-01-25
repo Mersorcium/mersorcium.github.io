@@ -45,7 +45,7 @@ Every event is a formatted `block` (circled in red below), so you can copy and p
 
 Then submit the change by click the `commit changes...` button. Don't forget write a title for this change (it can be anything you want).
 
-![commit](Confirm_the_update.jpg)
+![commit](how-to-post/Confirm_the_update.jpg)
 
 > Note: GitHub Pages use a small caching window of ~10 min, so you may have to wait a while to see the results.
 
