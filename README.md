@@ -27,25 +27,27 @@ Then confirm the uploading:
 
 ## Step 2: Editing the text content
 
-![category_location](how-to-post/posts_category.jpg)
+Edit the file: `data_/seminar.yml`
 
-![events_location](how-to-post/posts_events.jpg)
+![_data_location](how-to-post/Find_folder__data.jpg)
 
-Then edit the content:
+![seminar_yml_location](how-to-post/Click_seminar.yml.jpg)
 
-![edit](how-to-post/edit_events.jpg)
+Then edit the content to add a new data block:
+
+![Click_to_edit](how-to-post/Click_to_edit_Seminar.yaml.jpg)
 
 **The post should obey the following format:**
 
-Every event is a formatted `block` (circled in red below), so you can copy and paste a previous `block` and then edit the content. The content should be edited is highlighted by yellow.
+Every event is a formatted `block` (circled in red below), so you can copy and paste a previous `block` and then edit the content. Please do not change the item keys listed there; only change the content after the colon. You can leave the content blank if you do not have that information yet.
 
-![example-block](how-to-post/write_content.jpg)
+![example-block](how-to-post/Add_a_new_block.jpg)
 
-Then submit the change by click the `commit` button at the bottom of this page. Don't forget write a title for this change.
+Then submit the change by click the `commit changes...` button. Don't forget write a title for this change (it can be anything you want).
 
-![commit](how-to-post/commit.jpg)
+![commit](Confirm_the_update.jpg)
 
 > Note: GitHub Pages use a small caching window of ~10 min, so you may have to wait a while to see the results.
 
-The website is established and maintained by Heyu (linheyu[at]outlook.com). You can always find solutions from him anytime if you have any problem or feedback:grinning:!
+The website is established and maintained by Heyu (linheyu🌀outlook.com). You can always find solutions from him anytime if you have any problem or feedback:grinning:!
 
